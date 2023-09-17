@@ -1,0 +1,31 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script src="app.js"></script>
+  <title>Linkbud</title>
+</head>
+<body>
+<div class="main">
+    <div class="header">
+      <h2>LINKBUD</h2>
+      <p>A URL Shortening Service</p>
+    </div>
+    <div class="primary">
+      <input class="urlInput" type="text" placeholder="Paste your link here...">
+      <button class="submit urlButton" onclick="shorten()">Shorten</button>
+      <div class="results hidden">
+        <button class="copy urlButton" onclick="copyToClipboard()">Copy</button>
+      </div>
+      <a href="#" class="clear hidden" onclick="reset()">Clear</a>
+    </div>
+  <div class="footer">
+    <p>Made by Hari</p>
+  </div>
+  </div>
+</body>
+</html>
